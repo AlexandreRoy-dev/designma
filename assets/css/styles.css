@@ -1,0 +1,5 @@
+html { scroll-behavior: smooth; }
+body { min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1; }
+.font-taviraj { font-family: 'Taviraj', serif; font-weight: 300; }
+.font-inclusive { font-family: 'Inclusive Sans', sans-serif; }

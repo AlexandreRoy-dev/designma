@@ -1,0 +1,20 @@
+﻿:root {
+  --ma-dark: #333333;
+  --ma-brown: #4f3e27;
+  --ma-cream: #f7f5f2;
+  --ma-muted: #dddad5;
+  --font-serif: 'Taviraj', Georgia, serif;
+  --font-sans: 'Inclusive Sans', system-ui, sans-serif;
+  --header-h: 70px;
+  --container: 72rem;
+}
+
+@media (min-width: 768px) {
+  :root { --header-h: 90px; }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-family: var(--font-sans); color: var(--ma-dark); background: #fff; }
+.site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.95); backdrop-filter: blur(8px); }
+.hero { min-height: 85vh; display: flex; align-items: center; justify-content: center; background: var(--ma-cream); }
+
