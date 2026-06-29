@@ -1027,6 +1027,23 @@ body.page-home .site-footer__form .form-field textarea {
   margin-top: var(--space-8);
 }
 
+/* ---------- Image placeholder (team photo, etc.) ---------- */
+.media-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: color-mix(in srgb, var(--ma-cream) 75%, var(--ma-muted));
+}
+
+.media-placeholder__label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-soft, var(--ma-dark));
+  user-select: none;
+}
+
 /* ============================================================
    HOME: cinematic editorial system (designma.ca)
    One rhythm, one frame motif, one type scale.
@@ -2433,22 +2450,6 @@ body.page-project .site-footer {
   aspect-ratio: 3 / 4;
   max-width: 34rem;
   width: 100%;
-}
-
-.about-intro__media--placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: color-mix(in srgb, var(--ma-cream) 75%, var(--ma-muted));
-}
-
-.about-intro__placeholder-label {
-  font-family: var(--font-sans);
-  font-size: 0.72rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--ink-soft);
-  user-select: none;
 }
 
 .about-intro__media img {
